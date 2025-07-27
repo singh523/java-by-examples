@@ -1,15 +1,15 @@
 package com.example.features;
 
-import static java.util.FormatProcessor.FMT;
+//import static java.util.FormatProcessor.FMT;
 
 public class FMTTemplateProcessor {
 
     public static void main(String[] args) {
         System.out.println("FMT Template Processor");
-        System.out.println(interpolationOfJSONBlockWithFMT("Test user", "USA", 4000.0f, "M"));
+        //System.out.println(interpolationOfJSONBlockWithFMT("Test user", "USA", 4000.0f, "M"));
     }
 
-    static String interpolationOfJSONBlockWithFMT(String name, String address, float salary, String gender) {
+    /*static String interpolationOfJSONBlockWithFMT(String name, String address, float salary, String gender) {
         return FMT
                 . """
       {
@@ -19,5 +19,5 @@ public class FMTTemplateProcessor {
         "gender": "%1s\{ gender }"
       }
       """ ;
-    }
+    }*/
 }
